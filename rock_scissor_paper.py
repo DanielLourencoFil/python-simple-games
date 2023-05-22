@@ -41,12 +41,3 @@ while True:
         print(
             f"{options[player_selection]} with {options[computer_selection]}, computer won!")
 
-# while True:
-#     computer_selection = random.randint(1, 3)
-#     if player_selection == computer_selection:
-#         print(computer_selection)
-#         continue
-#     else:
-#         print(f"Computer has choosen {computer_selection}")
-#         print(options[computer_selection])
-#         break

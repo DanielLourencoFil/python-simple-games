@@ -20,7 +20,7 @@ while not is_valid_max_number:
 random_number = random.randint(1, max_number)
 counter = 1
 
-# ALTERNATIVE WAY FOR USING WHILE LOOP : CONTINUE AND BREAK STAMENTS
+# ALTERNATIVE WAY FOR USING WHILE LOOP : CONTINUE AND BREAK STATMENTS
 while True:
     answer = input("Guess a number between 1 and " + str(max_number)+": ")
     if answer.isdigit():
